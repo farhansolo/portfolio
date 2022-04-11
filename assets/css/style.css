@@ -1,0 +1,98 @@
+:root {
+  --lime-green: #c3ffcb;
+  --almost-white: #fefefe;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  background-color: var(--almost-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  color: var(--heliotrope);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  /* 4rem = 40px (4 * 10px) */
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+header {
+  width: 96%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.top-line {
+  position: fixed;
+  width: 100%;
+  border-top: 1.2rem;
+  border-style: solid;
+  border-color: var(--lime-green);
+  z-index: 999;
+}
+
+.headshot {
+  width: 15em;
+  border-radius: 9%;
+}
