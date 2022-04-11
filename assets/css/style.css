@@ -1,7 +1,9 @@
 :root {
   --light-orange: rgb(255, 212, 132, 0);
-  --custom-orange: #ff8f4a;
-  --almost-white: #fdfdfd;
+  --orange: #ff8f4a;
+  --neon-orange: #ff6b0f;
+  --almost-white: #fefefe;
+  --grey-black: #5d5d5d;
 }
 
 * {
@@ -68,8 +70,26 @@ header {
   text-align: center;
 }
 
-a {
+nav ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+nav ul li {
+  margin: .3rem;
+}
+
+nav a {
   text-decoration: none;
+  color: var(--orange);
+  font-size: 2.5rem;
+}
+
+nav a:hover {
+  border-bottom: 2px solid var(--grey-black);
+  padding-bottom: 1.5px;
+  color: var(--neon-orange);
 }
 
 .row {
@@ -88,11 +108,16 @@ a {
   position: fixed;
   width: 100%;
   height: 1.2rem;
-  background-image: linear-gradient(to right, var(--light-orange), var(--custom-orange));
+  background-image: linear-gradient(to right, var(--light-orange), var(--neon-orange));
   z-index: 999;
 }
 
 .headshot {
-  width: 15em;
-  border-radius: 13%;
+  width: 17em;
+  border-radius: 10%;
+  margin-bottom: 2rem;
+}
+
+.name {
+  color: var(--grey-black);
 }
