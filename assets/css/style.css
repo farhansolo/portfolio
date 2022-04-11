@@ -1,6 +1,6 @@
 :root {
   --lime-green: #c3ffcb;
-  --almost-white: #fefefe;
+  --almost-white: #fdfdfd;
 }
 
 * {
@@ -94,5 +94,5 @@ a {
 
 .headshot {
   width: 15em;
-  border-radius: 9%;
+  border-radius: 13%;
 }
