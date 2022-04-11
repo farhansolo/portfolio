@@ -16,7 +16,8 @@ html {
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   font-size: 1.75rem;
   line-height: 1.5;
   background-color: var(--almost-white);
@@ -29,7 +30,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.625rem;
-  color: var(--heliotrope);
+  color: var(--grey-black);
   font-weight: 700;
   line-height: 1.1;
 }
@@ -93,7 +94,7 @@ nav a:hover {
 }
 
 footer {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--grey-black);
   text-align: center;
   margin-top: 1rem;
@@ -124,7 +125,7 @@ footer:hover {
 }
 
 .headshot {
-  width: 17em;
+  width: 15em;
   border-radius: 10%;
   margin-bottom: 2rem;
 }
