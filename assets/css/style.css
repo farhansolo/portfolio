@@ -92,6 +92,13 @@ nav a:hover {
   color: var(--neon-orange);
 }
 
+footer {
+  font-size: 1rem;
+  color: var(--grey-black);
+  text-align: center;
+  margin-top: 1rem;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
