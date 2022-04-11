@@ -1,5 +1,6 @@
 :root {
-  --lime-green: #c3ffcb;
+  --light-orange: rgb(255, 212, 132, 0);
+  --custom-orange: #ff8f4a;
   --almost-white: #fdfdfd;
 }
 
@@ -86,9 +87,8 @@ a {
 .top-line {
   position: fixed;
   width: 100%;
-  border-top: 1.2rem;
-  border-style: solid;
-  border-color: var(--lime-green);
+  height: 1.2rem;
+  background-image: linear-gradient(to right, var(--light-orange), var(--custom-orange));
   z-index: 999;
 }
 
