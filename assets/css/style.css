@@ -99,6 +99,10 @@ footer {
   margin-top: 1rem;
 }
 
+footer:hover {
+  color: rgb(0, 200, 0);
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
