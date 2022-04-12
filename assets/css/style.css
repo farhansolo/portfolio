@@ -86,6 +86,7 @@ nav ul li {
 
 nav a {
   text-decoration: none;
+  border: none;
   color: var(--orange);
   font-size: 2.5rem;
 }
@@ -94,12 +95,6 @@ nav a:hover {
   border-bottom: 1.5px solid var(--grey-black);
   padding-bottom: 1.5px;
   color: var(--neon-orange);
-}
-
-a {
-  text-decoration: none;
-  color: var(--grey-black);
-  border-bottom: 1px solid var(--grey-black);
 }
 
 main {
@@ -160,10 +155,10 @@ footer:hover {
 .headshot {
   width: 15em;
   border-radius: 10%;
-  margin-bottom: 2rem;
 }
 
 .name {
+  padding-top: 1rem;
   color: var(--grey-black);
   font-weight: 700;
 }
@@ -183,4 +178,10 @@ footer:hover {
 
 #contact {
   font-size: 2rem;
+}
+
+#contact a {
+  text-decoration: none;
+  color: var(--grey-black);
+  border-bottom: 1px solid var(--grey-black);
 }
