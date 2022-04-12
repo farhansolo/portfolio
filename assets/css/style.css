@@ -68,7 +68,11 @@ p {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 96%;
+  height: 100vh;
   margin: 0 auto;
   padding: 2.5rem 2.5rem 0 2.5rem;
   text-align: center;
@@ -81,14 +85,15 @@ nav ul {
 }
 
 nav ul li {
-  margin: .3rem;
+  margin: .35rem;
 }
 
 nav a {
   text-decoration: none;
   border: none;
   color: var(--orange);
-  font-size: 2.5rem;
+  font-size: 2.7rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
 nav a:hover {
@@ -153,20 +158,21 @@ footer:hover {
 }
 
 .headshot {
-  width: 15em;
+  width: 100%;
   border-radius: 10%;
 }
 
 .name {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   color: var(--grey-black);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .section-header {
-  font-weight: 400;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
   border-bottom: solid 1.5px;
-  padding-bottom: 1.5px;
+  padding-bottom: 5px;
 }
 
 .card {
