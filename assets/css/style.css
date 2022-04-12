@@ -118,7 +118,10 @@ section {
 }
 
 i {
+  position: relative;
+  top: .5rem;
   margin-right: 1.5rem;
+  font-size: 3rem;
 }
 
 footer {
@@ -176,4 +179,8 @@ footer:hover {
   border: solid 2px var(--lightish-orange);
   border-radius: .4em;
   padding: .7rem 1.2rem 0 1.2rem;
+}
+
+#contact {
+  font-size: 2rem;
 }
